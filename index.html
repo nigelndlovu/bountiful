@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<title>Nigel Ndlovu - Bountiful Foods site</title>
+	<meta name="description" content="This is a Bountiful Foods fictitious site located in Carlsbad, California">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Merriweather:wght@700&display=swap" 
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+	<header class="clearfix">
+		<div class="mainHead">
+			<figure>
+				<img class="logo" src="images/logol.png" alt="Logo">
+			</figure>
+			<nav class="clearfix">
+				<ul class="navigation">
+					<li><a class="ham" href="#">☰</a></li>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="fresh.html">Fresh</a></li>
+					<li><a href="about.html">About Us</a></li>
+				</ul>
+			</nav>
+			<div class="social">
+				<a href="https://facebook.com"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<g>
+						<path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#3B5998" />
+						<path d="M22,32V20h4l1-5h-5v-2c0-2,1.002-3,3-3h2V5c-1,0-2.24,0-4,0c-3.675,0-6,2.881-6,7v3h-4v5h4v12H22z" fill="#FFFFFF" id="f" />
+					</g>
+				</svg></a>
+				<a href="https://twitter.com"><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<g>
+						<path d="M448,512l-384,0c-35.328,0 -64,-28.672 -64,-64l0,-384c0,-35.328 28.672,-64 64,-64l384,0c35.328,0 64,28.672 64,64l0,384c0,35.328 -28.672,64 -64,64Z" id="Dark_Blue" style="fill:#1da1f2;fill-rule:nonzero;" />
+						<path d="M196.608,386.048c120.704,0 186.752,-100.096 186.752,-186.752c0,-2.816 0,-5.632 -0.128,-8.448c12.8,-9.216 23.936,-20.864 32.768,-34.048c-11.776,5.248 -24.448,8.704 -37.76,10.368c13.568,-8.064 23.936,-20.992 28.928,-36.352c-12.672,7.552 -26.752,12.928 -41.728,15.872c-12.032,-12.8 -29.056,-20.736 -47.872,-20.736c-36.224,0 -65.664,29.44 -65.664,65.664c0,5.12 0.64,10.112 1.664,14.976c-54.528,-2.688 -102.912,-28.928 -135.296,-68.608c-5.632,9.728 -8.832,20.992 -8.832,33.024c0,22.784 11.648,42.88 29.184,54.656c-10.752,-0.384 -20.864,-3.328 -29.696,-8.192l0,0.896c0,31.744 22.656,58.368 52.608,64.384c-5.504,1.536 -11.264,2.304 -17.28,2.304c-4.224,0 -8.32,-0.384 -12.288,-1.152c8.32,26.112 32.64,45.056 61.312,45.568c-22.528,17.664 -50.816,28.16 -81.536,28.16c-5.248,0 -10.496,-0.256 -15.616,-0.896c28.928,18.432 63.488,29.312 100.48,29.312" id="Logo__x2014__FIXED" style="fill:#fff;fill-rule:nonzero;" />
+					</g>
+				</svg></a>
+			</div>
+			<div class="headerdate">Current date</div>
+		</div>
+	</header>
+	
+	<main>
+		<h1>Home</h1>
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <img src="images/veg.jpg" alt="vegetables">
+			</div>
+			
+			<div class="mySlides fade">
+			  <img src="images/fruit.jpg" alt="fruits">
+			</div>
+			
+			<div class="mySlides fade">
+			  <img src="images/veg1.jpg" alt="vegetables1">
+			</div>
+			<p>
+				<a href="fresh.html"><button type="button">Make your own DRINK!</button></a>
+			</p>
+		</div>
+		<br>
+		<div style="text-align:center">
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+		</div>
+		<section id="weather">
+			<h2>Weather</h2>
+			<p>
+				<figure>
+					<img src="" alt="" id="weather-icon">
+					<figcaption></figcaption>
+				</figure>
+				Temparature: <span id="current-temp"></span>&deg;C<br>
+				Humidity: <span id="humid"></span>%<br>
+				Wind Speed: <span id="speed"></span>km/h<br>
+				Windchill: <span id="chill"></span>
+			</p>
+		</section>
+		<section id="news">
+			<h2>Discover Southern California</h2>
+			<p>
+				California is a state in the Western United States, located along the 
+				Pacific Coast. With nearly 39.2 million residents across a total area 
+				of approximately 163,696 square miles (423,970 km2), it is the most 
+				populous U.S. state and the 3rd largest by area. It is also the most 
+				populated subnational entity in North America and the 34th most populous
+				in the world. The Greater Los Angeles area and the San Francisco Bay 
+				Area are the nation's second and fifth most populous urban regions 
+				respectively, with the former having more than 18.7 million residents 
+				and the latter having over 9.6 million. Sacramento is the state's 
+				capital, while Los Angeles is the most populous city in the state and 
+				the second most populous city in the country. San Francisco is the 
+				second most densely populated major city in the country. Los Angeles 
+				County is the country's most populous, while San Bernardino County is 
+				the largest county by area in the country. California borders Oregon to 
+				the north, Nevada and Arizona to the east, the Mexican state of Baja 
+				California to the south; and has a coastline along the Pacific Ocean to 
+				the west.
+			</p>
+		</section>
+	</main>
+	<footer class="clearfix">
+		<div class="wrapper">
+			<div class="logospace">
+				<figure>
+					<img class="logo" src="images/logol.png" alt="Logo">
+				</figure>	
+				<p>9999 Carlsbad Village Drive, Carlsbad, CA 92008</p>
+			</div>
+			<div class="contacts">
+				<p>info@bountifulfoods.com</p>
+				<p>+(1) 123 456789</p>
+			</div>
+		</div>
+		<hr>
+		<div class="signnote">
+			&copy; <span id="getyear"></span> ♖ Nigel Ndlovu ♖ Zimbabwe ♖
+      	<p class="lasmod">Last Modified: <span id="lastmod"></span></p>
+    	</div>
+			<p>Resource/attribution page: <a href="resources.html">Resources & Attributes</a></p>
+	</footer>
+	<script src="js/index.js"></script>
+	<script src="js/weather.js"></script>
+	<script src="js/windchill.js"></script>
+	<script src="js/slideshow.js"></script>
+</body>
+</html>
